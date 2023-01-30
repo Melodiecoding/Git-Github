@@ -8,6 +8,7 @@
 
 h1 {
   text-align: center;
+  margin: 50px;
 }
 
 .formulaire {
@@ -32,6 +33,7 @@ h1 {
 
 .mybutton {
   width: 25%;
+  margin: 10px;
 }
 
 header {
