@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulaire {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.myinput {
+    width: 50%;
+}
+
+.input-lg{
+    width: 100%;
+}
+
+.mybutton{
+ width: 25%;
+}
