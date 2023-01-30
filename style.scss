@@ -1,0 +1,61 @@
+$bgcolor: #131313;
+$btnBgColor: #1648d1a9;
+$btnBgColorHover: #1648d1;
+$color: aliceblue;
+$fSize: 12px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: $bgcolor;
+    color: $color;
+    padding: 10px;
+    & .navLi {
+        display: flex;
+    }
+    & nav li {
+        list-style-type: none;
+        margin:10px 20px;
+        padding: 3px;
+        text-transform: uppercase;
+        font-size: $fSize;
+    }
+    & nav li.active {
+        border-bottom: solid 2px;
+    }
+    & nav li:hover {
+        border-bottom: solid 2px;
+    }
+    & .btnForm {
+        display: flex;
+        align-items: center;
+    }
+
+    & .btnForm a {
+        border: none;
+        padding: 8px 50px;
+        border-radius: 3px;
+        background-color: $btnBgColor;
+        color: $color;
+        transition: .2s;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        transition: .2s;
+        background-color: $btnBgColorHover;
+    }
+}
+
+.sectImg {
+    & img {
+        width: 100%;
+    }
+}
