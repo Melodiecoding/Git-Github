@@ -4,11 +4,43 @@ $btnBgColorHover: #1648d1;
 $color: aliceblue;
 $fSize: 12px;
 
-* {
+*{
     box-sizing: border-box;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulaire {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    // gap: 4px;
+}
+
+$margin-size: 4px;
+
+.myinput {
+    flex-shrink: 1;
+    width: calc(50% - $margin-size*2);
+    margin: $margin-size;
+}
+
+.input-lg{
+    flex-shrink: 1;
+    width: calc(100% - $margin-size*2);
+    margin: $margin-size;
+}
+
+.mybutton{
+ width: 25%;
 }
 
 header {
@@ -53,7 +85,6 @@ header {
         background-color: $btnBgColorHover;
     }
 }
-
 .sectImg {
     & img {
         width: 100%;
